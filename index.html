@@ -357,12 +357,14 @@
         }
 
         .symptoms,
+        .irradiations,
         .options {
             display: block;
             /* ボタンを縦並びに */
         }
 
         .symptoms button,
+        .irradiations button,
         .options button {
             display: block;
             width: 100%;
@@ -378,6 +380,7 @@
         }
 
         .symptoms button.active,
+        .irradiations button.active,
         .options button.active {
             background-color: #444;
             color: #fff;
@@ -400,6 +403,7 @@
         }
 
         .symptoms,
+        .irradiations,
         .options {
             display: block;
             /* ボタンを縦並びに */
@@ -591,6 +595,8 @@
         <p>${visitCountText}</p>
         <hr>
         <p>${selectedSymptomText}</p>
+        <hr>
+        <p>${irradiationsText}</p>
         <hr>
         <p>${selectedDateText}</p>
         <hr>
